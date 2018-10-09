@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
 	box-sizing: border-box;
+
 }
 
 html {
@@ -55,7 +58,28 @@ html {
 	border-radius: 10px;
 	backface-visibility: hidden;
 	overflow: hidden;
-	background: #FFF;
-	color: #000;
+	background: #000;
 	transform: rotateY(180deg);
+}
+
+.cardfront h1 {
+	font-family: 'Yatra One', cursive;
+	font-size: 3em;
+	padding-top: 50%;
+	text-align: center;
+}
+
+.cardback h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 2em;
+	padding: 35px;
+	text-align: center;
+}
+
+.cardback p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	padding: 25px;
+	text-align: center;
 }
