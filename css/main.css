@@ -66,6 +66,7 @@ html {
 	transform: rotateY(180deg);
 }
 
+/*the heading text for the front card*/
 .cardfront h1 {
 	font-family: 'Yatra One', cursive;
 	font-size: 3em;
@@ -73,6 +74,7 @@ html {
 	text-align: center;
 }
 
+/*the heading text for the back card*/
 .cardback h1 {
 	font-family: 'Roboto', sans-serif;
 	color: #FFF;
@@ -81,6 +83,7 @@ html {
 	text-align: center;
 }
 
+/*the paragraph text for the front card*/
 .cardback p {
 	font-family: 'Roboto', sans-serif;
 	color: #FFF;
